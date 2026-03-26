@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Pasticceria Gocce di Miele</title>
+  <meta name="description" content="Scopri le nostre creazioni di alta pasticceria.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .page-hero {
+      padding-top: 12rem;
+      padding-bottom: 6rem;
+      background-color: var(--bg-alt);
+      text-align: center;
+    }
+    .page-hero h1 {
+      margin-bottom: 1rem;
+    }
+    .page-hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header scrolled" id="header">
+    <a href="index.html" class="logo">
+      <img src="logo/logo_goccie_di_miele-removebg-preview.png" alt="Pasticceria Gocce di Miele">
+    </a>
+    <nav class="nav-links">
+      <a href="chi-siamo.html" class="nav-link">Chi Siamo</a>
+      <a href="menu.html" class="nav-link">Menu</a>
+      <a href="servizi.html" class="nav-link">Servizi</a>
+      <a href="contatti.html" class="nav-link">Contatti</a>
+    </nav>
+    <button class="menu-btn">Menu</button>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="mobile-menu">
+    <nav class="mobile-nav-links">
+      <a href="index.html">Home</a>
+      <a href="chi-siamo.html">Chi Siamo</a>
+      <a href="menu.html">Menu</a>
+      <a href="servizi.html">Servizi</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <span class="eyebrow" style="justify-content: center;">La Collezione</span>
+        <h1 class="title-lg">Le Nostre Creazioni</h1>
+        <p>Ogni dolce è un'opera d'arte, pensata per sorprendere il palato e gli occhi.</p>
+      </div>
+    </section>
+
+    <section class="section-pad" style="padding-top: 4rem;">
+      <div class="container">
+        
+        <!-- CATEGORY 1: TORTE -->
+        <div class="menu-category" id="torte">
+          <div class="section-header reveal">
+            <div>
+              <span class="eyebrow">Signature</span>
+              <h2 class="title-md">Torte e Monoporzioni</h2>
+            </div>
+            <div style="display: flex; gap: 1rem; align-items: center;">
+              <span style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em;">Scorri &rarr;</span>
+            </div>
+          </div>
+
+          <div class="product-slider reveal delay-1">
+            <!-- Product 1 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop" alt="L'Assoluto">
+              </div>
+              <div class="card-body">
+                <h3>L'Assoluto</h3>
+                <p>Mousse al cioccolato fondente 72%, cuore al caramello salato.</p>
+                <span class="price">€ 45,00</span>
+              </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?q=80&w=800&auto=format&fit=crop" alt="Architettura">
+              </div>
+              <div class="card-body">
+                <h3>Architettura</h3>
+                <p>Sfoglia caramellata, crema diplomatica e fragoline di bosco.</p>
+                <span class="price">€ 38,00</span>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=800&auto=format&fit=crop" alt="Crostata Moderna">
+              </div>
+              <div class="card-body">
+                <h3>Crostata Moderna</h3>
+                <p>Frolla sablé, frangipane alle mandorle e frutta fresca di stagione.</p>
+                <span class="price">€ 35,00</span>
+              </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop" alt="Sacher Rivisitata">
+              </div>
+              <div class="card-body">
+                <h3>Sacher Rivisitata</h3>
+                <p>Pan di spagna al cacao, confettura di albicocche artigianale, glassa a specchio.</p>
+                <span class="price">€ 40,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 2: MIGNON & MACARONS -->
+        <div class="menu-category" id="pasticcini">
+          <div class="section-header reveal">
+            <div>
+              <span class="eyebrow">Piccoli Gioielli</span>
+              <h2 class="title-md">Mignon & Macarons</h2>
+            </div>
+            <div style="display: flex; gap: 1rem; align-items: center;">
+              <span style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em;">Scorri &rarr;</span>
+            </div>
+          </div>
+
+          <div class="product-slider reveal delay-1">
+            <!-- Product 1 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=800&auto=format&fit=crop" alt="Macarons Etereo">
+              </div>
+              <div class="card-body">
+                <h3>Macarons Etereo</h3>
+                <p>Selezione di macarons artigianali ai gusti classici e floreali.</p>
+                <span class="price">€ 24,00 / scatola</span>
+              </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1558326567-98ae2405596b?q=80&w=800&auto=format&fit=crop" alt="Vassoio Mignon">
+              </div>
+              <div class="card-body">
+                <h3>Vassoio Mignon</h3>
+                <p>Assortimento classico: bignè, tartellette, cannoncini e frolle.</p>
+                <span class="price">€ 35,00 / kg</span>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1605807646983-377bc5a76493?q=80&w=800&auto=format&fit=crop" alt="Tartellette Frutta">
+              </div>
+              <div class="card-body">
+                <h3>Tartellette alla Frutta</h3>
+                <p>Gusci di frolla croccante, crema pasticcera alla vaniglia e frutta fresca.</p>
+                <span class="price">€ 1,50 / pz</span>
+              </div>
+            </div>
+            
+            <!-- Product 4 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?q=80&w=800&auto=format&fit=crop" alt="Bignè Craquelin">
+              </div>
+              <div class="card-body">
+                <h3>Bignè Craquelin</h3>
+                <p>Pasta choux con copertura croccante, ripieni di creme assortite.</p>
+                <span class="price">€ 1,80 / pz</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 3: LIEVITATI -->
+        <div class="menu-category" id="lievitati">
+          <div class="section-header reveal">
+            <div>
+              <span class="eyebrow">Il Mattino</span>
+              <h2 class="title-md">Lievitati e Colazioni</h2>
+            </div>
+            <div style="display: flex; gap: 1rem; align-items: center;">
+              <span style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em;">Scorri &rarr;</span>
+            </div>
+          </div>
+
+          <div class="product-slider reveal delay-1">
+            <!-- Product 1 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop" alt="Croissant al Burro">
+              </div>
+              <div class="card-body">
+                <h3>Croissant al Burro</h3>
+                <p>Sfogliato al burro francese, lievitazione lenta di 36 ore.</p>
+                <span class="price">€ 1,80</span>
+              </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop" alt="Pain au Chocolat">
+              </div>
+              <div class="card-body">
+                <h3>Pain au Chocolat</h3>
+                <p>Pasta sfoglia croccante con doppi bastoncini di cioccolato fondente.</p>
+                <span class="price">€ 2,00</span>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+              <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=800&auto=format&fit=crop" alt="Veneziana">
+              </div>
+              <div class="card-body">
+                <h3>Veneziana alla Crema</h3>
+                <p>Soffice impasto brioche ripieno di crema pasticcera e glassa alle mandorle.</p>
+                <span class="price">€ 2,20</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand reveal">
+          <h2>Pasticceria Gocce di Miele</h2>
+          <p>L'alta pasticceria contemporanea, pensata per chi cerca l'eccellenza in ogni dettaglio.</p>
+        </div>
+        
+        <div class="footer-col reveal delay-1">
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+            <li><a href="menu.html">Le Creazioni</a></li>
+            <li><a href="servizi.html">Servizi</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col reveal delay-1">
+          <h4>Boutique</h4>
+          <ul>
+            <li>Via S. Bellino, 10</li>
+            <li>45100 Rovigo RO</li>
+            <br>
+            <li>Gio - Sab: 07:00 - 20:00</li>
+            <li>Dom: 07:00 - 13:00</li>
+            <li>Lun - Mar: 07:00 - 20:00</li>
+            <li>Mer: 07:00 - 13:00</li>
+          </ul>
+        </div>
+        
+        <div class="footer-col reveal delay-2">
+          <h4>Contatti</h4>
+          <ul>
+            <li><a href="mailto:info@pasticceriagocciedimiele.it">info@pasticceriagocciedimiele.it</a></li>
+            <li><a href="tel:+39042528824">+39 0425 28824</a></li>
+            <br>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom reveal delay-2">
+        <p>&copy; 2024 Pasticceria Gocce di Miele. Tutti i diritti riservati.</p>
+        <div class="footer-social">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Termini e Condizioni</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
